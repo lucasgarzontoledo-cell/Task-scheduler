@@ -1,14 +1,16 @@
 [MAC]
-10FFE0CD589D
+88D7F6C65A1E
 [/MAC]
 [tarea]
-nombre=loop_mensual
-script=mensual/loop_mensual.py
+nombre=loop_mensual_distribuido
+script=mensual/loop_mensual_distribuido.py
 interprete=python312
 argumentos=
-trigger=mensual_dia10_09:00
+trigger=mensual_dia11_23:59
 habilitado=si
-archivo=mensual/loop_mensual.py; sha256=597ecf96b1f5d7ce36db1596ae41128ceb1414b63d61719fa24a56a24a2519ed
+despertar=si
+apagar_al_terminar=si
+archivo=mensual/loop_mensual.py; sha256=be964e1f1995e160227118511c392a2df08ef1d67f284903c5dccf1e1b36424b
 archivo=mensual/Recursos/comun/afip_session.py; sha256=fea595edba76dd345bc1d6b1187b05fa4248c790daafa9b40c643cffdc0fd507
 archivo=mensual/Recursos/comun/reintentos.py; sha256=afd2c30126d4c4e62c51d714c8b9736633fd1bb9eec04fc5bcb422aadefa2505
 archivo=mensual/Recursos/descarga_compras_ventas.py; sha256=ab133005146b408c682a2a4ed98da03caa54ab4abe494f27976c3f48d6a65441
@@ -17,4 +19,169 @@ archivo=mensual/Recursos/descarga_931.py; sha256=e909daec2ed654b36c9ea9cbe7af83e
 archivo=mensual/Recursos/descarga_ret_per_IVA.py; sha256=52221d4d94861f5daeb8d57a19be7cb609768e6de54af3e3fdd615aca1dc2cd5
 archivo=mensual/Recursos/descarga_IBB.py; sha256=7874b4a6b6986fe5176bf89f2d0da26cc7c4d0b8fc0ef13fe3bbcfe9585bc9ed
 archivo=mensual/Recursos/descarga_IBB_DDJ.py; sha256=f90a48960435dc267f09ccfe72a7668df87ec4cfc2b7f76b5a6a2d0ea24ebf4e
+archivo=mensual/loop_mensual_distribuido.py; sha256=281f222ae37b2c1b6139a9fc1b5d18106bd016fcbce4e98f5435507719b7cec7
+archivo=mensual/Recursos/comun/cola_distribuida.py; sha256=5fe1eb15b4732b2cd49bc07aa905eceaab15ba9f96d2e0ab1f09a9414b9f54ca
+[/tarea]
+------------------------
+[MAC]
+D85ED3D9A38D
+[/MAC]
+[tarea]
+nombre=loop_mensual_distribuido
+script=mensual/loop_mensual_distribuido.py
+interprete=python312
+argumentos=
+trigger=mensual_dia11_23:59
+habilitado=si
+despertar=si
+apagar_al_terminar=si
+archivo=mensual/loop_mensual.py; sha256=be964e1f1995e160227118511c392a2df08ef1d67f284903c5dccf1e1b36424b
+archivo=mensual/Recursos/comun/afip_session.py; sha256=fea595edba76dd345bc1d6b1187b05fa4248c790daafa9b40c643cffdc0fd507
+archivo=mensual/Recursos/comun/reintentos.py; sha256=afd2c30126d4c4e62c51d714c8b9736633fd1bb9eec04fc5bcb422aadefa2505
+archivo=mensual/Recursos/descarga_compras_ventas.py; sha256=ab133005146b408c682a2a4ed98da03caa54ab4abe494f27976c3f48d6a65441
+archivo=mensual/Recursos/descarga_DJ_IVA.py; sha256=61671305c0b3f2f17c1066a056b03703dfc05520b7420265446509b0f3ab8d7b
+archivo=mensual/Recursos/descarga_931.py; sha256=e909daec2ed654b36c9ea9cbe7af83e44b0c7695aaf7b19eefe02726864f34e7
+archivo=mensual/Recursos/descarga_ret_per_IVA.py; sha256=52221d4d94861f5daeb8d57a19be7cb609768e6de54af3e3fdd615aca1dc2cd5
+archivo=mensual/Recursos/descarga_IBB.py; sha256=7874b4a6b6986fe5176bf89f2d0da26cc7c4d0b8fc0ef13fe3bbcfe9585bc9ed
+archivo=mensual/Recursos/descarga_IBB_DDJ.py; sha256=f90a48960435dc267f09ccfe72a7668df87ec4cfc2b7f76b5a6a2d0ea24ebf4e
+archivo=mensual/loop_mensual_distribuido.py; sha256=281f222ae37b2c1b6139a9fc1b5d18106bd016fcbce4e98f5435507719b7cec7
+archivo=mensual/Recursos/comun/cola_distribuida.py; sha256=5fe1eb15b4732b2cd49bc07aa905eceaab15ba9f96d2e0ab1f09a9414b9f54ca
+[/tarea]
+------------------------
+[MAC]
+4CCC6AEFB902
+[/MAC]
+[tarea]
+nombre=loop_mensual_distribuido
+script=mensual/loop_mensual_distribuido.py
+interprete=python312
+argumentos=
+trigger=mensual_dia11_23:59
+habilitado=si
+despertar=si
+apagar_al_terminar=si
+archivo=mensual/loop_mensual.py; sha256=be964e1f1995e160227118511c392a2df08ef1d67f284903c5dccf1e1b36424b
+archivo=mensual/Recursos/comun/afip_session.py; sha256=fea595edba76dd345bc1d6b1187b05fa4248c790daafa9b40c643cffdc0fd507
+archivo=mensual/Recursos/comun/reintentos.py; sha256=afd2c30126d4c4e62c51d714c8b9736633fd1bb9eec04fc5bcb422aadefa2505
+archivo=mensual/Recursos/descarga_compras_ventas.py; sha256=ab133005146b408c682a2a4ed98da03caa54ab4abe494f27976c3f48d6a65441
+archivo=mensual/Recursos/descarga_DJ_IVA.py; sha256=61671305c0b3f2f17c1066a056b03703dfc05520b7420265446509b0f3ab8d7b
+archivo=mensual/Recursos/descarga_931.py; sha256=e909daec2ed654b36c9ea9cbe7af83e44b0c7695aaf7b19eefe02726864f34e7
+archivo=mensual/Recursos/descarga_ret_per_IVA.py; sha256=52221d4d94861f5daeb8d57a19be7cb609768e6de54af3e3fdd615aca1dc2cd5
+archivo=mensual/Recursos/descarga_IBB.py; sha256=7874b4a6b6986fe5176bf89f2d0da26cc7c4d0b8fc0ef13fe3bbcfe9585bc9ed
+archivo=mensual/Recursos/descarga_IBB_DDJ.py; sha256=f90a48960435dc267f09ccfe72a7668df87ec4cfc2b7f76b5a6a2d0ea24ebf4e
+archivo=mensual/loop_mensual_distribuido.py; sha256=281f222ae37b2c1b6139a9fc1b5d18106bd016fcbce4e98f5435507719b7cec7
+archivo=mensual/Recursos/comun/cola_distribuida.py; sha256=5fe1eb15b4732b2cd49bc07aa905eceaab15ba9f96d2e0ab1f09a9414b9f54ca
+[/tarea]
+------------------------
+[MAC]
+BC5FF4B443A8
+[/MAC]
+[tarea]
+nombre=loop_mensual_distribuido
+script=mensual/loop_mensual_distribuido.py
+interprete=python312
+argumentos=
+trigger=mensual_dia11_23:59
+habilitado=si
+despertar=si
+apagar_al_terminar=si
+archivo=mensual/loop_mensual.py; sha256=be964e1f1995e160227118511c392a2df08ef1d67f284903c5dccf1e1b36424b
+archivo=mensual/Recursos/comun/afip_session.py; sha256=fea595edba76dd345bc1d6b1187b05fa4248c790daafa9b40c643cffdc0fd507
+archivo=mensual/Recursos/comun/reintentos.py; sha256=afd2c30126d4c4e62c51d714c8b9736633fd1bb9eec04fc5bcb422aadefa2505
+archivo=mensual/Recursos/descarga_compras_ventas.py; sha256=ab133005146b408c682a2a4ed98da03caa54ab4abe494f27976c3f48d6a65441
+archivo=mensual/Recursos/descarga_DJ_IVA.py; sha256=61671305c0b3f2f17c1066a056b03703dfc05520b7420265446509b0f3ab8d7b
+archivo=mensual/Recursos/descarga_931.py; sha256=e909daec2ed654b36c9ea9cbe7af83e44b0c7695aaf7b19eefe02726864f34e7
+archivo=mensual/Recursos/descarga_ret_per_IVA.py; sha256=52221d4d94861f5daeb8d57a19be7cb609768e6de54af3e3fdd615aca1dc2cd5
+archivo=mensual/Recursos/descarga_IBB.py; sha256=7874b4a6b6986fe5176bf89f2d0da26cc7c4d0b8fc0ef13fe3bbcfe9585bc9ed
+archivo=mensual/Recursos/descarga_IBB_DDJ.py; sha256=f90a48960435dc267f09ccfe72a7668df87ec4cfc2b7f76b5a6a2d0ea24ebf4e
+archivo=mensual/loop_mensual_distribuido.py; sha256=281f222ae37b2c1b6139a9fc1b5d18106bd016fcbce4e98f5435507719b7cec7
+archivo=mensual/Recursos/comun/cola_distribuida.py; sha256=5fe1eb15b4732b2cd49bc07aa905eceaab15ba9f96d2e0ab1f09a9414b9f54ca
+[/tarea]
+------------------------
+[MAC]
+2CF05DD3ACB7
+[/MAC]
+[tarea]
+nombre=loop_mensual_distribuido
+script=mensual/loop_mensual_distribuido.py
+interprete=python312
+argumentos=
+trigger=mensual_dia11_23:59
+habilitado=si
+despertar=si
+apagar_al_terminar=si
+archivo=mensual/loop_mensual.py; sha256=be964e1f1995e160227118511c392a2df08ef1d67f284903c5dccf1e1b36424b
+archivo=mensual/Recursos/comun/afip_session.py; sha256=fea595edba76dd345bc1d6b1187b05fa4248c790daafa9b40c643cffdc0fd507
+archivo=mensual/Recursos/comun/reintentos.py; sha256=afd2c30126d4c4e62c51d714c8b9736633fd1bb9eec04fc5bcb422aadefa2505
+archivo=mensual/Recursos/descarga_compras_ventas.py; sha256=ab133005146b408c682a2a4ed98da03caa54ab4abe494f27976c3f48d6a65441
+archivo=mensual/Recursos/descarga_DJ_IVA.py; sha256=61671305c0b3f2f17c1066a056b03703dfc05520b7420265446509b0f3ab8d7b
+archivo=mensual/Recursos/descarga_931.py; sha256=e909daec2ed654b36c9ea9cbe7af83e44b0c7695aaf7b19eefe02726864f34e7
+archivo=mensual/Recursos/descarga_ret_per_IVA.py; sha256=52221d4d94861f5daeb8d57a19be7cb609768e6de54af3e3fdd615aca1dc2cd5
+archivo=mensual/Recursos/descarga_IBB.py; sha256=7874b4a6b6986fe5176bf89f2d0da26cc7c4d0b8fc0ef13fe3bbcfe9585bc9ed
+archivo=mensual/Recursos/descarga_IBB_DDJ.py; sha256=f90a48960435dc267f09ccfe72a7668df87ec4cfc2b7f76b5a6a2d0ea24ebf4e
+archivo=mensual/loop_mensual_distribuido.py; sha256=281f222ae37b2c1b6139a9fc1b5d18106bd016fcbce4e98f5435507719b7cec7
+archivo=mensual/Recursos/comun/cola_distribuida.py; sha256=5fe1eb15b4732b2cd49bc07aa905eceaab15ba9f96d2e0ab1f09a9414b9f54ca
+[/tarea]
+------------------------
+[MAC]
+B42E9953EF5A
+[/MAC]
+[tarea]
+nombre=loop_mensual_distribuido
+script=mensual/loop_mensual_distribuido.py
+interprete=python312
+argumentos=
+trigger=mensual_dia11_23:59
+habilitado=si
+despertar=si
+apagar_al_terminar=si
+archivo=mensual/loop_mensual.py; sha256=be964e1f1995e160227118511c392a2df08ef1d67f284903c5dccf1e1b36424b
+archivo=mensual/Recursos/comun/afip_session.py; sha256=fea595edba76dd345bc1d6b1187b05fa4248c790daafa9b40c643cffdc0fd507
+archivo=mensual/Recursos/comun/reintentos.py; sha256=afd2c30126d4c4e62c51d714c8b9736633fd1bb9eec04fc5bcb422aadefa2505
+archivo=mensual/Recursos/descarga_compras_ventas.py; sha256=ab133005146b408c682a2a4ed98da03caa54ab4abe494f27976c3f48d6a65441
+archivo=mensual/Recursos/descarga_DJ_IVA.py; sha256=61671305c0b3f2f17c1066a056b03703dfc05520b7420265446509b0f3ab8d7b
+archivo=mensual/Recursos/descarga_931.py; sha256=e909daec2ed654b36c9ea9cbe7af83e44b0c7695aaf7b19eefe02726864f34e7
+archivo=mensual/Recursos/descarga_ret_per_IVA.py; sha256=52221d4d94861f5daeb8d57a19be7cb609768e6de54af3e3fdd615aca1dc2cd5
+archivo=mensual/Recursos/descarga_IBB.py; sha256=7874b4a6b6986fe5176bf89f2d0da26cc7c4d0b8fc0ef13fe3bbcfe9585bc9ed
+archivo=mensual/Recursos/descarga_IBB_DDJ.py; sha256=f90a48960435dc267f09ccfe72a7668df87ec4cfc2b7f76b5a6a2d0ea24ebf4e
+archivo=mensual/loop_mensual_distribuido.py; sha256=281f222ae37b2c1b6139a9fc1b5d18106bd016fcbce4e98f5435507719b7cec7
+archivo=mensual/Recursos/comun/cola_distribuida.py; sha256=5fe1eb15b4732b2cd49bc07aa905eceaab15ba9f96d2e0ab1f09a9414b9f54ca
+[/tarea]
+------------------------
+[MAC]
+10FFE0CD589D
+[/MAC]
+[tarea]
+nombre=loop_mensual_distribuido
+script=mensual/loop_mensual_distribuido.py
+interprete=python312
+argumentos=
+trigger=mensual_dia11_23:59
+habilitado=si
+despertar=si
+apagar_al_terminar=si
+archivo=mensual/loop_mensual.py; sha256=be964e1f1995e160227118511c392a2df08ef1d67f284903c5dccf1e1b36424b
+archivo=mensual/Recursos/comun/afip_session.py; sha256=fea595edba76dd345bc1d6b1187b05fa4248c790daafa9b40c643cffdc0fd507
+archivo=mensual/Recursos/comun/reintentos.py; sha256=afd2c30126d4c4e62c51d714c8b9736633fd1bb9eec04fc5bcb422aadefa2505
+archivo=mensual/Recursos/descarga_compras_ventas.py; sha256=ab133005146b408c682a2a4ed98da03caa54ab4abe494f27976c3f48d6a65441
+archivo=mensual/Recursos/descarga_DJ_IVA.py; sha256=61671305c0b3f2f17c1066a056b03703dfc05520b7420265446509b0f3ab8d7b
+archivo=mensual/Recursos/descarga_931.py; sha256=e909daec2ed654b36c9ea9cbe7af83e44b0c7695aaf7b19eefe02726864f34e7
+archivo=mensual/Recursos/descarga_ret_per_IVA.py; sha256=52221d4d94861f5daeb8d57a19be7cb609768e6de54af3e3fdd615aca1dc2cd5
+archivo=mensual/Recursos/descarga_IBB.py; sha256=7874b4a6b6986fe5176bf89f2d0da26cc7c4d0b8fc0ef13fe3bbcfe9585bc9ed
+archivo=mensual/Recursos/descarga_IBB_DDJ.py; sha256=f90a48960435dc267f09ccfe72a7668df87ec4cfc2b7f76b5a6a2d0ea24ebf4e
+archivo=mensual/loop_mensual_distribuido.py; sha256=281f222ae37b2c1b6139a9fc1b5d18106bd016fcbce4e98f5435507719b7cec7
+archivo=mensual/Recursos/comun/cola_distribuida.py; sha256=5fe1eb15b4732b2cd49bc07aa905eceaab15ba9f96d2e0ab1f09a9414b9f54ca
+[/tarea]
+[tarea]
+nombre=consolidar_resultados
+script=mensual/consolidar_resultados.py
+interprete=python312
+argumentos=
+trigger=diario_07:30
+habilitado=si
+despertar=si
+apagar_al_terminar=si
+archivo=mensual/consolidar_resultados.py; sha256=e12be33964dd9b8a170d2b9f75ee828c7c2b216b65ff0780e0243fd24161f116
+archivo=mensual/loop_mensual.py; sha256=be964e1f1995e160227118511c392a2df08ef1d67f284903c5dccf1e1b36424b
+archivo=mensual/Recursos/comun/cola_distribuida.py; sha256=5fe1eb15b4732b2cd49bc07aa905eceaab15ba9f96d2e0ab1f09a9414b9f54ca
 [/tarea]
