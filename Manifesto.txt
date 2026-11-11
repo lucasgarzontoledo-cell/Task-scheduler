@@ -1,0 +1,20 @@
+[MAC]
+10FFE0CD589D
+[/MAC]
+[tarea]
+nombre=loop_mensual
+script=mensual/loop_mensual.py
+interprete=python312
+argumentos=
+trigger=mensual_dia10_09:00
+habilitado=si
+archivo=mensual/loop_mensual.py; sha256=597ecf96b1f5d7ce36db1596ae41128ceb1414b63d61719fa24a56a24a2519ed
+archivo=mensual/Recursos/comun/afip_session.py; sha256=fea595edba76dd345bc1d6b1187b05fa4248c790daafa9b40c643cffdc0fd507
+archivo=mensual/Recursos/comun/reintentos.py; sha256=afd2c30126d4c4e62c51d714c8b9736633fd1bb9eec04fc5bcb422aadefa2505
+archivo=mensual/Recursos/descarga_compras_ventas.py; sha256=ab133005146b408c682a2a4ed98da03caa54ab4abe494f27976c3f48d6a65441
+archivo=mensual/Recursos/descarga_DJ_IVA.py; sha256=61671305c0b3f2f17c1066a056b03703dfc05520b7420265446509b0f3ab8d7b
+archivo=mensual/Recursos/descarga_931.py; sha256=e909daec2ed654b36c9ea9cbe7af83e44b0c7695aaf7b19eefe02726864f34e7
+archivo=mensual/Recursos/descarga_ret_per_IVA.py; sha256=52221d4d94861f5daeb8d57a19be7cb609768e6de54af3e3fdd615aca1dc2cd5
+archivo=mensual/Recursos/descarga_IBB.py; sha256=7874b4a6b6986fe5176bf89f2d0da26cc7c4d0b8fc0ef13fe3bbcfe9585bc9ed
+archivo=mensual/Recursos/descarga_IBB_DDJ.py; sha256=f90a48960435dc267f09ccfe72a7668df87ec4cfc2b7f76b5a6a2d0ea24ebf4e
+[/tarea]
